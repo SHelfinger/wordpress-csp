@@ -54,3 +54,4 @@ add_filter( 'csp_output', function( $html ) {
 	$html = $dom->saveHTML();
   return $html;
 });
+?>
